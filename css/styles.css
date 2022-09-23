@@ -12,6 +12,7 @@
 body {
 color: var(--primary-text-color);
 font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
 }
 
 .list {
@@ -43,12 +44,17 @@ font-family: Roboto, sans-serif;
     color: var(--accent-color);
 }
 
+.second-part-logo {
+    color: var(--white-color);
+}
+
 .link-studio, .link-portpholio, .link-contacts {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .link-studio:hover,
@@ -70,6 +76,7 @@ font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 /* main */
@@ -84,6 +91,7 @@ font-family: Roboto, sans-serif;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .btn-order {
@@ -94,6 +102,7 @@ font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 /* benefits section */
@@ -162,7 +171,9 @@ font-family: Roboto, sans-serif;
 .footer .tel {
     font-style: normal;
     font-weight: 400;
-    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /* page portpholio */
@@ -194,6 +205,7 @@ font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .p-image {
